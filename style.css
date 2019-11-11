@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: #3A8091;
+}
+
+
+/************* navbar *************/
+
+.navbar {
+    background: #3A8091;
+    border-bottom: 10px solid white;
+}
+
+.navbar-brand {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 28px !important;
+}
+
+.navbar-nav {
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    margin-left: 30px !important;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    float: right;
+    text-align: left;
+}
+
+.nav-link {
+    margin-left: 1vw;
+    letter-spacing: 0;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/************* content  *************/
+
+.content {
+    margin-top: -12vw;
+}
+
+.welcome {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 2vw !important;
+    position: relative;
+    top: 22vw;
+}
+
+.me {
+    font-family: 'Squada One', cursive;
+    font-size: 50vw !important;
+    font-weight: bold;
+}
+
+#mask {
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+
+/* **************about me *********** */
+
+.about {
+    font-family: 'Squada One', cursive;
+    font-size: 10vw !important;
+    color: #012B36;
+    font-weight: bold;
+}
+
+.lorem {
+    font-family: 'Squada One', cursive;
+    font-size: 3vw !important;
+    color: #3A8091;
+    line-height: 3vw;
+}
+
+
+/************ portfolio***********/
+
+#portfolio {
+    font-family: 'Squada One', cursive;
+    background: #A0616A;
+    color: white !important;
+    padding: 80px 0;
+}
+
+.display-1 {
+    font-size: 10vw !important;
+    color: #012B36;
+    font-weight: bold !important;
+}
+
+.portfolioTitle::before
+/* line under portfolio title */
+
+{
+    content: '';
+    background: white;
+    height: 0.5vw;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(13vw);
+}
+
+.portfolioTitle::after
+/* line under portfolio title */
+
+{
+    content: '';
+    background: white;
+    height: 1.5vw;
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* transform: translateY(13vw); */
+}
+
+.portfolioWrap {
+    margin-top: 5vw;
+}
+
+.portfolioTop {
+    width: 100%;
+    position: relative;
+    top: -81px;
+}
+
+.portfolioBottom {
+    width: 100%;
+    position: relative;
+    bottom: -82px;
+}
+
+.firstText {
+    font-size: 10vw !important;
+    margin: 0;
+    font-weight: bold !important;
+}
+
+.cardFirst {
+    margin: 0;
+    padding: 0 !important;
+    background: #A0616A !important;
+    border: none !important;
+}
+
+.cardBody {
+    padding: 0 !important;
+    font-size: 1.5vw;
+}
+
+.portfolio {
+    padding: 20px;
+}
+
+.cardText {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2vw;
+    margin-top: 10px;
+    font-size: 1.4vw;
+}
+
+.button {
+    width: 150px;
+    margin-top: 50px;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 30px !important;
+}
+
+.button:hover {
+    color: #012B36 !important;
+}
+
+
+/************ contact me **************/
+
+#contactMe {
+    font-family: 'Squada One', cursive;
+    margin-bottom: 50px;
+}
+
+.contact {
+    font-size: 10vw !important;
+    color: #012B36;
+    font-weight: bold !important;
+    margin-top: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact::before
+/* line under portfolio title */
+
+{
+    content: '';
+    background: #A0616A;
+    height: 0.5vw;
+    width: 20vw;
+    margin-left: 5px;
+    margin-right: auto;
+    display: block;
+    transform: translateY(7vw);
+}
+
+.contact::after
+/* line under portfolio title */
+
+{
+    content: '';
+    background: #A0616A;
+    height: 1.5vw;
+    width: 5vw;
+    margin-left: 8vw;
+    margin-right: auto;
+    display: block;
+    /* transform: translateY(13vw); */
+}
+
+form {
+    /* width: 500px; */
+    color: #3A8091;
+}
+
+.button2 {
+    width: 100px;
+    margin-top: 50px;
+    color: #3A8091 !important;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 30px !important;
+    border-color: #3A8091 !important;
+}
+
+.button2:hover {
+    background: #3A8091 !important;
+    color: white !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.form-control {
+    border-color: #3A8091 !important;
+}
+
+::placeholder {
+    color: #3A8091 !important;
+}
+
+
+/**********footer************/
+
+footer {
+    background: #3A8091;
+}
+
+.footerTop {
+    width: 100%;
+    position: relative;
+    top: -3px;
+}
+
+.footerBottom {
+    width: 100%;
+    position: relative;
+    top: -1px;
+}
+
+#footerBottom {
+    background: #012B36;
+    color: white;
+}
+
+.footerBox {
+    margin-bottom: 40px;
+    margin-top: 5vw;
+}
+
+.footerBanner {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 5vw !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 3vw;
+}
+
+.footerBanner a,
+.footerBanner a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footerMail {
+    font-family: 'Squada One', cursive;
+    font-size: 3vw !important;
+}
+
+.footerNav {
+    font-family: 'Squada One', cursive;
+    font-size: 3vw !important;
+}
+
+.footerNav ul {
+    list-style: none;
+}
+
+.footerNav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerNav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footerImg {
+    width: 7vw;
+    padding-right: 2vw;
+}
+
+hr {
+    background: white;
+}
+
+.copyright {
+    margin-bottom: 0;
+    font-family: 'Squada One', cursive;
+    font-size: 1vw !important;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 200px) and (max-width:767px) {
+    .welcome {
+        font-size: 15vw !important;
+        margin-left: -12vw;
+        line-height: 10vw;
+    }
+    .contact {
+        transform: none;
+        text-align: center;
+    }
+    .contact::after,
+    .contact::before {
+        margin: 0 auto;
+    }
+    .contact::before {
+        transform: translateY(13vw);
+    }
+    .card-img-top {
+        width: 40vw !important;
+        margin: 0 auto !important;
+    }
+    .cardText {
+        font-size: 4vw !important;
+        line-height: 3.3vw;
+        width: 40vw;
+        margin: 0 auto;
+    }
+    .firstText {
+        font-size: 15vw !important;
+    }
+    .lorem {
+        font-size: 5vw !important;
+        line-height: 4.5vw;
+    }
+    #aboutMe {
+        padding-top: 2vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact {
+        transform: rotate(-90deg);
+        font-size: 5vw !important;
+    }
+    .welcome {
+        margin-left: -56vw;
+    }
+}
